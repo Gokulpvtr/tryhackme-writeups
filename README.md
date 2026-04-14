@@ -1,5 +1,5 @@
 
-# TryHackMe — RootMe Writeup
+## 🔐 TryHackMe – RootMe Writeup
 
 > **Platform:** [TryHackMe](https://tryhackme.com/room/rrootme)  
 > **Difficulty:** Easy  
@@ -10,8 +10,8 @@
 ---
 
 ## 🧠 What I Learned
-- Port scanning with **Nmap**
-- Web enumeration with **Gobuster**
+- How to perform network scanning using **Nmap**
+- Importance of web enumeration in finding hidden directories
 - File upload vulnerabilities and extension filter bypass
 - PHP reverse shells
 - Linux privilege escalation via **SUID binaries** (Python)
@@ -20,7 +20,8 @@
 
 ## 🔍 Step 1 — Reconnaissance
 
-I began with a full port scan to discover services running on the machine:
+Used Nmap to scan open ports and identify services.  
+Discovered HTTP service running on port 80, which became the main attack surface.
 
 ```bash
 nmap -sC -sV -p- 10.48.144.123
@@ -111,6 +112,17 @@ python -c 'import os; os.execl("/bin/sh", "sh", "-p")'
 | **PHP Reverse Shell** | Initial foothold payload |
 | **Netcat** | Catching the reverse shell |
 | **GTFOBins** | Privilege escalation research |
+
+---
+
+### 🛡️ How to Prevent This
+
+To mitigate the vulnerabilities exploited in this room, the following security measures should be implemented:
+
+- Use proper input validation to prevent web vulnerabilities  
+- Restrict SUID permissions on sensitive binaries  
+- Keep systems updated with latest security patches  
+- Limit unnecessary services and ports 
 
 ---
 
