@@ -1,121 +1,180 @@
 # 🛡️ TryHackMe Writeups
 
-Welcome to my TryHackMe learning repository.
-
-This repository contains my room writeups, notes, screenshots, and key cybersecurity concepts learned while progressing through various TryHackMe learning paths.
+A collection of my **TryHackMe** room write-ups documenting my practical cybersecurity learning journey. This repository focuses on **methodology, tools, and key takeaways** while intentionally avoiding challenge spoilers.
 
 ---
 
 # 👨‍💻 About Me
 
-I'm **Gokulkrishnan S**, a BCA student from the University of Kerala with a strong interest in:
+Hi, I'm **Gokul Krishnan S**, a final-year **Bachelor of Computer Applications (BCA)** student from the **University of Kerala** with a strong passion for cybersecurity.
 
-* Offensive Security
-* Web Application Security
-* Bug Bounty Hunting
-* Networking
-* Linux Administration
-* Penetration Testing
+I'm currently building hands-on experience through labs, CTFs, and security training platforms while working toward a career in **Cybersecurity**.
 
-This repository documents my practical cybersecurity learning journey.
+### 🎯 Areas of Interest
+
+- Offensive Security
+- Penetration Testing
+- Web Application Security
+- Linux Security
+- Network Security
+- SOC Operations
+- Ethical Hacking
 
 ---
 
-# 🎯 Current Goal
+# 🚀 Current Goals
 
-* Complete TryHackMe Learning Paths
-* Improve Web Application Security Skills
-* Build a Strong Cybersecurity Portfolio
-* Prepare for SOC Analyst and Penetration Tester Roles
+- Complete TryHackMe Learning Paths
+- Strengthen Penetration Testing Skills
+- Build a Professional Cybersecurity Portfolio
+- Improve Linux & Networking Knowledge
+- Prepare for SOC Analyst & Penetration Tester Roles
 
 ---
 
 # 📚 Completed Rooms
 
-| Room             | Difficulty | Status      |
-| ---------------- | ---------- | ----------- |
-| OWASP Juice Shop | Easy       | ✅ Completed |
-| RootMe           | Easy       | ✅ Completed |
+| Room | Category | Difficulty | Status |
+|------|----------|------------|--------|
+| OWASP Juice Shop | Web Security | Easy | ✅ Completed |
+| RootMe | Web Security | Easy | ✅ Completed |
+| Different CTF | Capture The Flag | Hard | ✅ Completed |
 
 ---
 
-# 🔗 Room Writeups
+# 📂 Room Write-ups
 
-## Web Security
+## 🌐 Web Security
 
-* 📄 [OWASP Juice Shop](./owasp-juice-shop/README.md)
-* 📄 [RootMe](./rootme/README.md)
+- 📄 [OWASP Juice Shop](./owasp-juice-shop/README.md)
+- 📄 [RootMe](./rootme/README.md)
+
+## 🚩 Capture The Flag (CTF)
+
+- 📄 [Different CTF](./different-ctf/README.md)
 
 ---
 
 # 🛠️ Skills Practiced
 
-## Web Application Security
+## 🔍 Reconnaissance & Enumeration
 
-* SQL Injection
-* Authentication Testing
-* Input Validation Testing
-* Web Enumeration
-* Security Misconfiguration Analysis
+- Network Scanning
+- Service Enumeration
+- Directory Enumeration
+- Web Enumeration
+- Banner Grabbing
 
-## Networking
+## 🌐 Web Application Security
 
-* Network Scanning
-* Service Enumeration
-* Port Analysis
+- SQL Injection
+- Authentication Testing
+- Security Misconfiguration
+- Input Validation Testing
+- Source Code Analysis
 
-## Linux
+## 🐧 Linux
 
-* Linux Enumeration
-* Command Line Navigation
-* File Permissions
+- Linux Enumeration
+- File Permission Analysis
+- Command Line Navigation
+- Privilege Escalation Methodology
 
-## Security Tools
+## 🧰 Security Tools
 
-* Burp Suite
-* Nmap
-* Gobuster
-* SQLMap
-* Firefox Developer Tools
+- Nmap
+- Gobuster
+- Burp Suite
+- SQLMap
+- LinPEAS
+- Firefox Developer Tools
 
 ---
 
 # 🏆 Learning Platforms
 
-* TryHackMe
-* PortSwigger Web Security Academy
-* Cisco Skills For All
-* HackerOne
-* Bugcrowd
+- TryHackMe
+- PortSwigger Web Security Academy
+- Cisco Skills For All
+- HackerOne
+- Bugcrowd
 
 ---
 
 # 📈 Progress Tracker
 
-| Category             | Rooms Completed |
-| -------------------- | --------------- |
-| Web Security         | 2               |
-| Networking           | 0               |
-| Linux                | 0               |
-| Privilege Escalation | 0               |
-| Active Directory     | 0               |
+| Category | Completed |
+|----------|----------:|
+| Web Security | 2 |
+| Capture The Flag | 1 |
+| Linux | 1 |
+| Privilege Escalation | 1 |
+| Networking | 1 |
+| Active Directory | 0 |
 
 ---
 
-# 📸 Certifications & Achievements
+# 📖 Repository Structure
 
-This repository will continue to grow as I complete additional rooms and cybersecurity challenges.
+```text
+tryhackme-writeups/
+│
+├── README.md
+│
+├── owasp-juice-shop/
+│   ├── README.md
+│   └── screenshots/
+│
+├── rootme/
+│   ├── README.md
+│   └── screenshots/
+│
+└── different-ctf/
+    ├── README.md
+    └── screenshots/
+        ├── nmap.png
+        ├── gobuster.png
+        └── completion.png
+```
+
+---
+
+# 💡 What You'll Find Here
+
+Each room write-up includes:
+
+- Overview
+- Objectives
+- Tools Used
+- Methodology
+- Screenshots
+- Key Takeaways
+
+> **Note:** All write-ups are **spoiler-free**. Flags, credentials, passwords, and detailed exploitation steps are intentionally omitted to respect the TryHackMe platform and encourage independent learning.
+
+---
+
+# 📌 Future Plans
+
+I plan to continue expanding this repository by documenting additional:
+
+- TryHackMe Rooms
+- Capture The Flag Challenges
+- Linux Privilege Escalation Labs
+- Active Directory Labs
+- Web Security Labs
+- Personal Cybersecurity Projects
 
 ---
 
 # ⚠️ Disclaimer
 
-These writeups are created for educational purposes only.
-
-All activities were performed on legal training platforms intentionally designed for cybersecurity education and skill development.
-
-No unauthorized testing was performed.
+This repository is intended solely for educational purposes. All activities were conducted within legal, intentionally vulnerable environments provided by cybersecurity training platforms. No unauthorized testing was performed.
 
 ---
 
-⭐ If you're also learning cybersecurity, feel free to explore my writeups and follow my journey.
+# ⭐ Connect With Me
+
+If you're also passionate about cybersecurity, feel free to explore my repositories, connect with me on LinkedIn, or follow my learning journey.
+
+**Thanks for visiting! Happy Hacking! 🚀**
