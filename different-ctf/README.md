@@ -1,10 +1,10 @@
 # Different CTF – TryHackMe Write-up
 
-> **Author:** Gokul Krishnan  
-> **Platform:** TryHackMe  
-> **Room:** Different CTF  
-> **Difficulty:** Hard  
-> **Status:** ✅ Completed
+**Author:** Gokul Krishnan  
+**Platform:** TryHackMe  
+**Room:** Different CTF  
+**Difficulty:** Hard  
+**Status:** ✅ Completed
 
 ---
 
@@ -67,7 +67,7 @@ Tasks performed:
 
 ### Screenshot
 
-![Nmap Scan](screenshots/nmap.png)
+![Nmap Scan](nmap.png)
 
 ---
 
@@ -84,7 +84,7 @@ Activities included:
 
 ### Screenshot
 
-![Gobuster Results](screenshots/gobuster.png)
+![Gobuster Results](gobuster.png)
 
 ---
 
@@ -102,7 +102,7 @@ Successfully completed the **Different CTF** room and captured all required flag
 
 ### Screenshot
 
-![Room Completion](screenshots/completion.png)
+![Room Completion](completion.png)
 
 ---
 
